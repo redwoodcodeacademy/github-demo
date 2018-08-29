@@ -6,7 +6,10 @@ class Navbar extends Component {
     render() { 
         return ( 
             <div>
-                h3llo
+            <h1> This will be my navigation component</h1>
+                <div>   
+                    I made a change here.
+                </div>
             </div>
          );
     }
