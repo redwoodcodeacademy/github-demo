@@ -1,4 +1,4 @@
-class Login extends Component {
+class UserProfile extends Component {
     constructor(props) {
         super(props);
         this.state = {  }
@@ -6,10 +6,10 @@ class Login extends Component {
     render() { 
         return ( 
             <div>   
-               <h3>this will be login component</h3> 
+                <h1>This will be the user profile.</h1>
             </div>
          );
     }
 }
  
-export default Login;
+export default UserProfile;
